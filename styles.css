@@ -1,11 +1,127 @@
 /* Main */
 body {
 	margin: 0;
+	background-image: url(images/Images/Background_01.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: rgb(240, 240, 240);
 	font-family: 'Montserrat', sans-serif;
-
 	font-size: 15px;
 	line-height: 1.6;
 }
+
+/* Links */
+
+a:link {
+	color: rgb(30, 30, 30);
+}
+
+a:visited {
+	color: rgb(30, 30, 30);
+}
+
+a:focus {
+
+}
+
+a:hover {
+	color: rgb(100, 100, 100);
+}
+
+a:active {
+	color: rgb(30, 30, 30);
+}
+
+
+/* Container */
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* Header */ 
+.header {
+	width: 100%;
+	z-index: 1000;
+}
+
 .header_inner {
-	
+	margin: 60px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header_logo {
+	max-width: 25px;
+}
+
+/* Navigation */
+a.nav_link {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.nav_link {
+	margin: 0 16px;
+}
+
+
+/* Intro */
+
+.intro_maininfo {
+	margin-top: 150px;
+}
+.intro .workingsteps {
+	width: 100%;
+}
+
+.intro_maininfo {
+	display: flex;
+}
+
+.intro_title {
+	font-size: 50px;
+	color: rgb(30, 30, 30);
+	width: 500px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.intro_secondinfo {
+	font-size: 16px;
+	color: rgb(30, 30, 30);
+	width: 600px;
+	line-height: 2;
+	margin-top: 40px;
+	font-weight: 500;
+}
+
+/* Exploring */
+
+.all_projects {
+	width: inherit;
+	margin: 120px 0px 0px 30px;
+	display: flex;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.arrow_icon {
+	margin: 0 10px;
+	width: 30px;
+}
+
+/* Connections */
+
+.socialmedia {
+	margin-top: 260px;
+}
+
+.social_link {
+		margin: 0 16px;
+		text-decoration: none;
+		color: rgb(100, 100, 100);
 }
