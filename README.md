@@ -1,2 +1,2 @@
 # Project1
-Test project
+Study FrontEnd project. HTML/css learning.
